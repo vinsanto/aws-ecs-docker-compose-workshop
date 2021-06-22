@@ -1,6 +1,6 @@
 services:
   app:
-    image: partnership-workshop-docker.jfrog.io/ecs-docker-compose-workshop-app:${run_number}
+    image: vincedock.jfrog.io/ecs-docker-compose-workshop-app:${run_number}
     restart: always
     ports:
       - 80:80
